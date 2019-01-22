@@ -1,0 +1,20 @@
+{
+  "name": "pugb",
+  "main": "index.js",
+  "homepage": "https://github.com/marlenvmtz/pugb",
+  "authors": [
+    "Marlen v Martinez <marlenv6martinez@gmail.com>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
