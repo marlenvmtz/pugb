@@ -2,6 +2,13 @@
     window.pugb = window.pugb || {
         numz: {},
         phyz: {
+          getDistance(pointA, pointB) {
+            const
+              distanceX = pointB.x - pointA.x,
+              distanceY = pointB.y - pointA.y;
+              return  Math.sqrt(distanceX * distanceX + distanceY * distanceY);
+          },
+        
              /**
        * Returns an Object with basic properties utilized in a 
        * 2D physics system. On top of simple physical properties,
